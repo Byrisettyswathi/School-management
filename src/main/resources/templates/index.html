@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>School Management</title>
+  <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div class="container">
+  <h1>School Management System</h1>
+
+  <div style="text-align:center">
+    <a th:href="@{/students}" class="btn btn-add">View Students</a>
+    <a th:href="@{/teachers}" class="btn btn-add">View Teachers</a>
+  </div>
+</div>
+</body>
+</html>
